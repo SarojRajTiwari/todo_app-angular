@@ -1,0 +1,33 @@
+.todo-input-wrapper {
+  margin-bottom: 20px;
+}
+.btn {
+  
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  line-height: 30px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: blue;
+  
+}
+.btn-primary:hover{
+  color: black;
+ background-color: darkgreen;
+}
+
+input {
+  width: 80%;
+  border: solid;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 30px;
+}
+
+

@@ -1,0 +1,7 @@
+<div class="todo-input-wrapper">
+  <input type="text" [(ngModel)]="todoText"  placeholder='Add a Todo List'value={{todoText}} (keyup.enter)="addTodo()"/>
+  <button class="btn btn-primary" (click)="addTodo()"><span style='font-size:20px;'>&#10004;</span></button>
+ 
+    
+</div>
+
